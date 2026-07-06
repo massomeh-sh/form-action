@@ -20,12 +20,6 @@ TypeScript.
 
 ---
 
-## 📸 Preview
-
-![screens![screenshot.png](src/assets/screenshot.png)hot](src/assets/screenshot.png)
-
----
-
 ## 🛠️ Technologies
 
 - React 19
