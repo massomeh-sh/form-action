@@ -11,8 +11,6 @@ function UserList(): JSX.Element {
     const {loginsData} = useLoginContext();
     const [currentPage, setCurrentPage] = useState(1);
 
-    console.log(loginsData.users);
-
     const usersPerPage = 5;
     const lastIndex = currentPage * usersPerPage;
     const firstIndex = lastIndex - usersPerPage;

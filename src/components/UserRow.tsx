@@ -21,7 +21,6 @@ function UserRow({userData, userNumber}: UserProps): JSX.Element {
         image,
     } = userData;
 
-
     const genderConfig = {
         female: {
             className: "bg-pink-200 text-pink-800",

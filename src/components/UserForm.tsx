@@ -40,7 +40,8 @@ function UserForm({onReset}: UserFormProps): JSX.Element {
 
 
         if (user.image) {
-            const newUser = {...user, image: user.image.name};
+            const imageUrl = URL.createObjectURL(user.image);
+            const newUser = {...user, image: imageUrl};
             await loginsData.addUser(newUser);
         }
 

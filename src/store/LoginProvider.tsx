@@ -76,7 +76,6 @@ function LoginProvider({children}: LoginProviderProps): JSX.Element {
             }
 
             const newUserData: User = await res.json();
-            console.log(newUserData.username);
 
             setUsers((preUsers: User[]) => ([{...newUser}, ...preUsers]))
 
